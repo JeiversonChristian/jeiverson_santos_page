@@ -12,12 +12,25 @@ body{
     color: #F6F6F6;
 }
 
-.titulo-destaque{
+.cabecalho{
+    padding: 1% 0 0 5%;
+}
+
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+
+.cabecalho__menu_link{
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
     color: #22D4FD;
 }
 
 .apresentacao{
-    padding: 5% 5%;
+    padding: 1% 5%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -27,18 +40,22 @@ body{
     width: 615px;
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 25px;
 }
 
 .apresentacao__conteudo__titulo{
-    font-size: 36px;
+    font-size: 30px;
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
 
+.titulo-destaque{
+    color: #22D4FD;
+}
+
 .apresentacao__conteudo__texto{
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Montserrat", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -49,11 +66,11 @@ body{
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
+    gap: 25px;
 }
 
 .apresentacao__links__subtitulo{
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Krona One", sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -65,14 +82,14 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 16px;
+    gap: 3px;
     border: 2px solid #22D4FD;
     border-radius: 8px;
-    width: 378px;
+    width: 300px;
     text-align: center;
     border-radius: 16px;
-    font-size: 24px;
-    padding: 21.5px 0;
+    font-size: 20px;
+    padding: 10px 0;
     text-decoration: none;
     color: #F6F6F6;
     font-family: "Montserrat", sans-serif;
@@ -86,9 +103,9 @@ body{
 .rodape{
     color: #000000;
     background-color: #22D4FD;
-    padding: 23.64px;
+    padding: 5px;
     text-align: center;
     font-family: "Montserrat", sans-serif;
-    font-weight: 400;
-    font-size: 24px;
+    font-weight: 600;
+    font-size: 15px;
 }
