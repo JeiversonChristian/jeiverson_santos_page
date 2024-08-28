@@ -146,7 +146,7 @@ body{
     }
 }
 
-@media (max-width:609px) {
+@media (max-width:700px) {
     .apresentacao__links__navegacao{
         width: 150px;
     }
@@ -156,10 +156,10 @@ body{
     }
 
     .apresentacao__conteudo__titulo{
-        font-size: 1rem;
+        font-size: 1.5rem;
     }
 
     .apresentacao__conteudo__texto{
-        font-size: 0.75rem;
+        font-size: 0.9rem;
     }
 }
