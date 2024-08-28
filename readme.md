@@ -5,4 +5,5 @@
 
 [Link do Site](https://jeiversonchristian.github.io/jeiverson_santos_page/)
 
-Projeto finalizado
+Projeto CONTINUA!
+Próximo passo: Responsividade!
