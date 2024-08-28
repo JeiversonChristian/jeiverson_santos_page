@@ -127,9 +127,6 @@ body{
 }
 
 @media (max-width:1200px) {
-    body{
-        height: 100vh;
-    }
 
     .cabecalho{
         padding: 3%;
@@ -146,5 +143,11 @@ body{
 
     .apresentacao__conteudo{
         width: auto;
+    }
+}
+
+@media (max-width:609px) {
+    .apresentacao__links__navegacao{
+        width: 150px;
     }
 }
